@@ -43,6 +43,12 @@ Lint code style:
 npm run lint
 ```
 
+Type check:
+
+```sh
+npm run lint:tsc
+```
+
 Run tests:
 
 ```sh

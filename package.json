@@ -10,7 +10,8 @@
     "test": "jest --watchAll",
     "test:ci": "CI=true jest --ci --colors --coverage",
     "lint": "eslint .",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "lint:tsc": "tsc --noEmit"
   },
   "jest": {
     "preset": "jest-expo"
