@@ -8,6 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
+    "test:ci": "CI=true jest --ci --colors --coverage",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix"
   },
