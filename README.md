@@ -1,6 +1,13 @@
 # gdi-hack23-pathways-to-independence
 
-GirlDevelopIt Hackathon 2023: Pathways to Independence
+[![lint](https://github.com/remarkablemark/gdi-hack23-pathways-to-independence/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablemark/gdi-hack23-pathways-to-independence/actions/workflows/lint.yml)
+[![test](https://github.com/remarkablemark/gdi-hack23-pathways-to-independence/actions/workflows/test.yml/badge.svg)](https://github.com/remarkablemark/gdi-hack23-pathways-to-independence/actions/workflows/test.yml)
+
+[GirlDevelopIt](https://girldevelopit.com/) Hackathon 2023: Pathways to Independence
+
+## Stack
+
+- [Expo](https://expo.dev/)
 
 ## Prerequisites
 
@@ -28,4 +35,16 @@ Start the app:
 
 ```sh
 npm start
+```
+
+Lint code style:
+
+```sh
+npm run lint
+```
+
+Run tests:
+
+```sh
+npm test
 ```
