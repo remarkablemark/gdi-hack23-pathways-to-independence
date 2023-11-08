@@ -13,8 +13,8 @@ export function ExternalLink(
         target: '_blank',
       }}
       {...props}
-      // @ts-expect-error: External URLs are not typed.
-      href={props.href}
+      // External URLs are not typed.
+      href={props.href as never}
       onPress={(e) => {
         if (Platform.OS !== 'web') {
           // Prevent the default behavior of linking to the default browser on native.
