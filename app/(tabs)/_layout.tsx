@@ -29,7 +29,7 @@ export default function TabLayout() {
           title: 'Home',
           tabBarIcon: ({ color }) => <TabBarIcon name="home" color={color} />,
           headerRight: () => (
-            <Link href="/modal" asChild>
+            <Link href="/model" asChild>
               <Pressable>
                 {({ pressed }) => (
                   <FontAwesome
