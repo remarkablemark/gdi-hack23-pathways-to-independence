@@ -1,20 +1,18 @@
 import { StyleSheet } from 'react-native';
-import { ActivityIndicator } from 'react-native-paper';
 
 import EditScreenInfo from '../../components/EditScreenInfo';
 import { Text, View } from '../../components/Themed';
 
-export default function TabOneScreen() {
+export default function TabTwoScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Home</Text>
+      <Text style={styles.title}>Messages</Text>
       <View
         style={styles.separator}
         lightColor="#eee"
         darkColor="rgba(255,255,255,0.1)"
       />
-      <EditScreenInfo path="app/(tabs)/index.tsx" />
-      <ActivityIndicator />
+      <EditScreenInfo path="app/(tabs)/messages.tsx" />
     </View>
   );
 }
