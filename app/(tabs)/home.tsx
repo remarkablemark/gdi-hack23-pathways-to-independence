@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
-import { Card, Button } from 'react-native-paper';
+import { Card, Button, Text } from 'react-native-paper';
 
-import { Text, View } from '../../components/Themed';
+import { View } from '../../components/Themed';
 
 export default function TabOneScreen() {
   return (
@@ -13,8 +13,8 @@ export default function TabOneScreen() {
         darkColor="rgba(255,255,255,0.1)"
       />
 
-      <Card type="outlined">
-        <Card.Cover icon={require('../../assets/svgs/enroll.svg')} />
+      <Card mode="outlined">
+        <Card.Cover source={{ uri: require('../../assets/svgs/enroll.svg') }} />
         <Card.Title title="Card Title" subtitle="Card Subtitle" />
         <Card.Content>
           <Text variant="titleLarge"> Enroll </Text>
@@ -28,8 +28,8 @@ export default function TabOneScreen() {
         </Card.Actions>
       </Card>
 
-      <Card type="outlined">
-        <Card.Cover icon={require('../../assets/svgs/arrows.svg')} />
+      <Card mode="outlined">
+        <Card.Cover source={{ uri: require('../../assets/svgs/arrows.svg') }} />
         <Card.Title title="Card Title" subtitle="Card Subtitle" />
         <Card.Content>
           <Text variant="titleLarge"> Roadmap </Text>
