@@ -18,15 +18,13 @@ Created for individuals who are survivors of domestic violence, transitioning ou
 
 Matriarch is built on the robust, flexible, and efficient React-Native framework. This modern technology allows our app to offer a smooth and responsive user experience across different mobile platforms, ensuring accessibility and usability for all users.
 
-## Motivating Idea
-
-At the heart of Matriarch, we believe that everyone deserves a fighting chance to succeed, to overcome their past, and to forge their own future. With this application, we hope to empower individuals with the tools they need to navigate through life's challenges and take full advantage of its opportunities. We are confident that this application will light the way for countless individuals, guiding them on their path to independence.
-
-## Technology
-
 - [Expo](https://expo.dev/)
 - [React Native](https://reactnative.dev/)
 - [React Native Paper](https://reactnativepaper.com/)
+
+## Motivating Idea
+
+At the heart of Matriarch, we believe that everyone deserves a fighting chance to succeed, to overcome their past, and to forge their own future. With this application, we hope to empower individuals with the tools they need to navigate through life's challenges and take full advantage of its opportunities. We are confident that this application will light the way for countless individuals, guiding them on their path to independence.
 
 ## Prerequisites
 
