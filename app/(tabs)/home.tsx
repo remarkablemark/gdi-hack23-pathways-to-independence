@@ -2,30 +2,20 @@ import { Link } from 'expo-router';
 import { StyleSheet, ScrollView, View } from 'react-native';
 import { Card, Button, Text, Appbar } from 'react-native-paper';
 
-import EditScreenInfo from '../../components/EditScreenInfo';
-/* import dark from '../../constants/Colors'; */
-
-/* import { View } from '../../components/Themed'; */
+//import { View } from '../../components/Themed';
 
 export default function HomeScreen() {
-  const SvgUri = require('../../assets/svgs/your_image.svg');
-
-  // Access the light theme
-  /* const darkTheme = dark; */
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Roadmap</Text>
-      <View style={styles.separator} />
-      <EditScreenInfo path="app/(tabs)/roadmap.tsx" />
+    <View>
       <Appbar.Header>
-        <Appbar.Content title="" /* style={darkTheme}  */ />
+        <Appbar.Content title="" />
         <Appbar.Action icon="menu" onPress={() => {}} />
       </Appbar.Header>
       <ScrollView>
         <Card mode="outlined">
-          <Card mode="outlined">
-            <Card.Cover source={{ uri: SvgUri }} />
-          </Card>
+          <Card.Cover
+            source={{ uri: require('../../assets/svgs/enroll.svg') }}
+          />
 
           <Card.Content>
             <Text variant="titleLarge"> Enroll </Text>
