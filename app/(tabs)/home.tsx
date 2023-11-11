@@ -3,8 +3,10 @@ import { StyleSheet, ScrollView } from 'react-native';
 import { Card, Button, Text } from 'react-native-paper';
 
 import { View } from '../../components/Themed';
+import { useTheme } from '../../constants/theme';
 
 export default function TabOneScreen() {
+  const theme = useTheme;
   return (
     <ScrollView>
       <Card mode="outlined">
@@ -18,8 +20,10 @@ export default function TabOneScreen() {
           </Text>
         </Card.Content>
         <Card.Actions>
-          <Button>
-            <Link href="/about">Learn More</Link>
+          <Button style={{ backgroundColor: theme.colors.buttonColor }}>
+            <Link href="/courses" style={{ color: theme.colors.surface }}>
+              Learn More
+            </Link>
           </Button>
         </Card.Actions>
       </Card>
@@ -35,7 +39,14 @@ export default function TabOneScreen() {
           </Text>
         </Card.Content>
         <Card.Actions>
-          <Button>Learn More</Button>
+          <Button style={{ backgroundColor: theme.colors.buttonColor }}>
+            <Link
+              href="/(tabs)/roadmap"
+              style={{ color: theme.colors.surface }}
+            >
+              Learn More
+            </Link>
+          </Button>
         </Card.Actions>
       </Card>
     </ScrollView>
