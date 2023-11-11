@@ -22,16 +22,11 @@ Matriarch is built on the robust, flexible, and efficient React-Native framework
 
 At the heart of Matriarch, we believe that everyone deserves a fighting chance to succeed, to overcome their past, and to forge their own future. With this application, we hope to empower individuals with the tools they need to navigate through life's challenges and take full advantage of its opportunities. We are confident that this application will light the way for countless individuals, guiding them on their path to independence.
 
-# gdi-hack23-pathways-to-independence
-
-[![lint](https://github.com/remarkablemark/gdi-hack23-pathways-to-independence/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablemark/gdi-hack23-pathways-to-independence/actions/workflows/lint.yml)
-[![test](https://github.com/remarkablemark/gdi-hack23-pathways-to-independence/actions/workflows/test.yml/badge.svg)](https://github.com/remarkablemark/gdi-hack23-pathways-to-independence/actions/workflows/test.yml)
-
-[GirlDevelopIt](https://girldevelopit.com/) Hackathon 2023: Pathways to Independence
-
-## Stack
+## Technology
 
 - [Expo](https://expo.dev/)
+- [React Native](https://reactnative.dev/)
+- [React Native Paper](https://reactnativepaper.com/)
 
 ## Prerequisites
 
