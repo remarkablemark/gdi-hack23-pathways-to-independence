@@ -1,8 +1,7 @@
 import { Link } from 'expo-router';
-import { StyleSheet, ScrollView } from 'react-native';
+import { ScrollView } from 'react-native';
 import { Card, Button, Text } from 'react-native-paper';
 
-import { View } from '../../components/Themed';
 import { useTheme } from '../../constants/theme';
 
 export default function TabOneScreen() {
@@ -52,20 +51,3 @@ export default function TabOneScreen() {
     </ScrollView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
-  },
-  separator: {
-    marginVertical: 30,
-    height: 1,
-    width: '80%',
-  },
-});
