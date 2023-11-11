@@ -3,7 +3,6 @@
 # Description
 An empowering mobile application providing resources and personalized plans for individuals seeking independence from social services, built with React Native.
 
-
 ## Overview
 Matriarch is a transformative application designed to support individuals who are looking for a pathway to independence from social services or to find their way out of the system. By connecting individuals to independent professionals and necessary community resources, Matriarch builds a holistic proven pathway to self-sufficiency and peace of mind.
 
