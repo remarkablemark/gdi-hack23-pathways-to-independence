@@ -1,4 +1,6 @@
-# <img width="168" alt="Screenshot 2023-11-10 at 11 16 25 PM" src="https://github.com/remarkablemark/gdi-hack23-pathways-to-independence/assets/145883353/dfd468a5-9940-48fc-b5a9-8eac8465ff5b">
+<div align="center">
+  <img src="assets/images/MatriarchLogo.png" alt="Matriach">
+</div>
 
 # Description
 
