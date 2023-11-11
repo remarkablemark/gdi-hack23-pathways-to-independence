@@ -1,21 +1,25 @@
 import { Link } from 'expo-router';
-import { StyleSheet, ScrollView, View } from 'react-native';
+import { StyleSheet, ScrollView, View, Image } from 'react-native';
 import { Card, Button, Text, Appbar } from 'react-native-paper';
 
-//import { View } from '../../components/Themed';
+import EditScreenInfo from '../../components/EditScreenInfo';
+/* import dark from '../../constants/Colors'; */
+
+/* import { View } from '../../components/Themed'; */
 
 export default function HomeScreen() {
+  // Access the light theme
+  /* const darkTheme = dark; */
   return (
-    <View>
-      <Appbar.Header>
-        <Appbar.Content title="" />
-        <Appbar.Action icon="menu" onPress={() => {}} />
-      </Appbar.Header>
+    <View style={styles.container}>
+      <Text style={styles.title}>Roadmap</Text>
+      <View style={styles.separator} />
+
       <ScrollView>
         <Card mode="outlined">
-          <Card.Cover
-            source={{ uri: require('../../assets/svgs/enroll.svg') }}
-          />
+          <Card mode="outlined">
+            <Card.Cover source={require('../../assets/images/enroll.png')} />
+          </Card>
 
           <Card.Content>
             <Text variant="titleLarge"> Enroll </Text>
@@ -32,9 +36,7 @@ export default function HomeScreen() {
         </Card>
 
         <Card mode="outlined">
-          <Card.Cover
-            source={{ uri: require('../../assets/svgs/arrows.svg') }}
-          />
+          <Card.Cover source={require('../../assets/images/arrows.png')} />
 
           <Card.Content>
             <Text variant="titleLarge"> Roadmap </Text>

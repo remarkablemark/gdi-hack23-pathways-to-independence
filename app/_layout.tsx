@@ -7,7 +7,7 @@ import {
 import { useFonts } from 'expo-font';
 import { SplashScreen, Stack } from 'expo-router';
 import { useEffect } from 'react';
-import { useColorScheme } from 'react-native';
+import { useColorScheme, Image } from 'react-native';
 import { PaperProvider } from 'react-native-paper';
 
 import { theme } from '../constants/theme';
@@ -55,6 +55,7 @@ function RootLayoutNav() {
   return (
     <PaperProvider theme={theme}>
       <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+        <Image source={require('../assets/images/MatriarchLogo.png')} />
         <Stack>
           <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
           <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
