@@ -1,15 +1,8 @@
 import { Link } from 'expo-router';
-import { StyleSheet, ScrollView, View, Image } from 'react-native';
-import { Card, Button, Text, Appbar } from 'react-native-paper';
-
-import EditScreenInfo from '../../components/EditScreenInfo';
-/* import dark from '../../constants/Colors'; */
-
-/* import { View } from '../../components/Themed'; */
+import { StyleSheet, ScrollView, View } from 'react-native';
+import { Card, Button, Text } from 'react-native-paper';
 
 export default function HomeScreen() {
-  // Access the light theme
-  /* const darkTheme = dark; */
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Roadmap</Text>
