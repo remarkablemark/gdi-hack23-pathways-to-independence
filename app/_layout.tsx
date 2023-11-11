@@ -10,6 +10,8 @@ import { useEffect } from 'react';
 import { useColorScheme } from 'react-native';
 import { PaperProvider } from 'react-native-paper';
 
+import { theme } from '../constants/theme';
+
 export {
   // Catch any errors thrown by the Layout component.
   ErrorBoundary,
@@ -51,7 +53,7 @@ function RootLayoutNav() {
   const colorScheme = useColorScheme();
 
   return (
-    <PaperProvider>
+    <PaperProvider theme={theme}>
       <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
         <Stack>
           <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
