@@ -4,7 +4,7 @@ import { Card, Button, Text } from 'react-native-paper';
 
 import { View } from '../../components/Themed';
 
-export default function TabOneScreen() {
+export default function HomeScreen() {
   return (
     <ScrollView>
       <Card mode="outlined">
