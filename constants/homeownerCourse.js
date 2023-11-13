@@ -24,8 +24,6 @@ const HomeownerCourse = () => {
         <li>Identifying Common Home Repair Issues</li>
         <li>Hiring Contractors</li>
       </ul>
-
-  
     </div>
   );
 };
