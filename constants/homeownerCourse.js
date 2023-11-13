@@ -25,7 +25,7 @@ const HomeownerCourse = () => {
         <li>Hiring Contractors</li>
       </ul>
 
-      {/* Add more thought-provoking homeowner course content */}
+  
     </div>
   );
 };
