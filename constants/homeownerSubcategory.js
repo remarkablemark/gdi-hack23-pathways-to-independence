@@ -32,8 +32,6 @@ const HomeownerSubCategory = () => {
         repairs, renovations, and regular maintenance to preserve the value and
         functionality of your property.
       </p>
-
-      {/* Add more thought-provoking topics and content as needed */}
     </div>
   );
 };
