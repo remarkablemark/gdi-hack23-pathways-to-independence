@@ -4,7 +4,6 @@ const DashboardContent = () => {
   return (
     <div>
       <h1>Dashboard Content</h1>
-      {/* Add your dashboard content here */}
     </div>
   );
 };
